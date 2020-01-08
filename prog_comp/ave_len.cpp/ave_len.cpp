@@ -11,8 +11,7 @@ double dist(double x1, double x2, double y1, double y2)
     return sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
 }
 
-int main(void)
-{
+int main(void){
     int N;
 
     cin >> N;
@@ -40,7 +39,6 @@ int main(void)
     } while (next_permutation(v.begin(), v.end()));
 
     double ans = sum / count;
-
     cout << fixed << setprecision(6) << ans << endl;
     return 0;
 }
